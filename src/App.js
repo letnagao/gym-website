@@ -1,5 +1,6 @@
 import './App.css';
 import HeroSection from './components/hero-section/HeroSection';
+import Join from './components/join/Join';
 import Plans from './components/plans/Plans';
 import Programs from './components/programs/Programs';
 import Reasons from './components/reasons/Reasons';
@@ -13,6 +14,7 @@ function App() {
       <Reasons/>
       <Plans/>
       <Testimonials/>
+      <Join/>
     </div>
   );
 }
