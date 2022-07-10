@@ -10,11 +10,19 @@ React responsive Gym Website using ReactJs
 [![GitHub watchers](https://img.shields.io/github/watchers/letnagao/gym-website?logo=GitHub)](https://github.com/letnagao/gym-website/watchers)
 ![Maintained](https://img.shields.io/maintenance/yes/9999)
 
+</ul><h2> Preview ⚡️</h2>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/99754900/178131437-4b89e398-f451-46b5-b40e-a5fa2275166c.jpg" />
+</p>
+
 ## Features 🔥
-✔️ Authentication with email & password <br />
+✔️ Registration and Authentication with email <br />
 ✔️ Persistant data with local storage <br />
 ✔️ Asynchronous events handling <br />
 ✔️ Performance improvement with lazy loading <br />
+
+## Website 💻
+https://the-fit-club.pages.dev/
 
 ## Technologies used 🛠️
 **Design**: *Css & Styled Components*<br />
