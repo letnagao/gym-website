@@ -100,7 +100,7 @@
         top: 0;
         right: 0;
         position: relative;
-        align-items: center;
+        align-self: center;
     }
     .right-t > :last-child {
         display: block;

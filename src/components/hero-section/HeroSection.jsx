@@ -12,7 +12,7 @@ import {motion} from 'framer-motion'
 const HeroSection = () => {
 
     const transition = {type: 'spring', duration: 3}
-    const mobile = window.innerWidth<=768 ? true : false;
+    const mobile = window.innerWidth <= 768 ? true : false;
 
     return (
         <div className="hero" id="home">
@@ -21,9 +21,9 @@ const HeroSection = () => {
                 <Header />
                 <div className="the-best-ad">
                     <motion.div
-                    initial={{left: mobile ? "165px" : "238px"}}
-                    whileInView={{left: '8px'}}
-                    transition={{...transition, type: 'tween'}}
+                        initial={{left: mobile ? "165px" : "238px"}}
+                        whileInView={{left: '8px'}}
+                        transition={{...transition, type: "tween"}}
                     ></motion.div>
                     <span>the best fitness club in the town</span>
                 </div>
@@ -54,7 +54,12 @@ const HeroSection = () => {
                         </span>
                         <span>expert coachs</span>
                     </div>
-                    <div>
+                    <div><NumberCounter 
+                                end={978} 
+                                start={800} 
+                                delay="4"
+                                preFix="+" 
+                            />
                         <span>
                             <NumberCounter 
                                 end={978} 

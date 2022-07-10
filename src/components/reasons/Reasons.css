@@ -91,7 +91,7 @@
         flex-direction: column;
     }
     .left-r {
-        grid-auto-flow: auto;
+        grid-auto-rows: auto;
         overflow: hidden;
     }
     .left-r > :nth-child(1) {

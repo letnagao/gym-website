@@ -88,10 +88,10 @@
 }
 
 @media screen and (max-width: 768px) {
-    .plan {
+    .plans {
         flex-direction: column;
     }
-    .plan > :nth-child(2) {
+    .plans > :nth-child(2) {
         transform: none;
     }
 }
